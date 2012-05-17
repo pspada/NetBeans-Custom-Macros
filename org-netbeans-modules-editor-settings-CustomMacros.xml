@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE editor-macros PUBLIC "-//NetBeans//DTD Editor Macros settings 1.1//EN" "http://www.netbeans.org/dtds/EditorMacros-1_1.dtd">
+<editor-macros>
+    <macro name="html-wrap-p" xml:space="preserve">
+        <shortcut keystrokes="SD-P"/>
+        <code><![CDATA[cut-to-clipboard "<p></p>" caret-backward caret-backward caret-backward caret-backward insert-break paste-from-clipboard]]></code>
+    </macro>
+    <macro name="dsadasdas" xml:space="preserve">
+        <code><![CDATA[cut-to-clipboard "<a href=\"\"></a>" caret-backward caret-backward caret-backward caret-backward paste-from-clipboard]]></code>
+    </macro>
+    <macro name="html-br" xml:space="preserve">
+        <shortcut keystrokes="SD-ENTER"/>
+        <code><![CDATA[caret-end-line "<br/>"]]></code>
+    </macro>
+    <macro name="apply_li" xml:space="preserve">
+        <code><![CDATA["<li>" caret-end-line "</li>"]]></code>
+    </macro>
+    <macro name="html-wrap-strong" xml:space="preserve">
+        <shortcut keystrokes="SDO-S"/>
+        <code><![CDATA[cut-to-clipboard "<strong></strong>" caret-backward caret-backward caret-backward caret-backward caret-backward caret-backward caret-backward caret-backward caret-backward paste-from-clipboard]]></code>
+    </macro>
+</editor-macros>
